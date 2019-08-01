@@ -1,6 +1,11 @@
 # OwonFileformatTools
 Owon XDS3000 Series Fileformat / Tools hacks and Tipps
 
+## Network Query
+See java Sample Project how to query data over Ethernet.
+
+Taking a Screenshot and Query the Deep Memery is working.
+
 ## Owon .bin file Format
 The file ends with `.bin`
 the contents of the file is: `SPBXD`

@@ -22,11 +22,6 @@ public class ForwardThread extends Thread {
 	private long id;
 
 	/**
-	 * Buffer
-	 */
-	private byte[] buffer = new byte[50 * 1024];
-
-	/**
 	 * Constructor
 	 * 
 	 * @param server
@@ -40,7 +35,7 @@ public class ForwardThread extends Thread {
 	@Override
 	public void run() {
 		try {
-			// Never closed...
+			// Never closed... This is only a Test Programm!
 			Socket client = new Socket("192.168.178.2", 3000);
 			InputStream sin = server.getInputStream();
 			OutputStream sout = server.getOutputStream();
